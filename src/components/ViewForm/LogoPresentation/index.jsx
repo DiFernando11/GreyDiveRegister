@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 function LogoPresentation() {
   return (
-    <section className="bg-gray-900 w-2/5 flex flex-col justify-center hidden sm:flex">
-      <div className="block m-auto ">
+    <section className="bg-gray-900 w-full sm:w-2/5 flex  flex-col justify-center ">
+      <div className="block m-auto">
         <img
-          className="block m-auto w-11/12"
+          className="hidden m-auto w-11/12 sm:block"
           src="https://uploads-ssl.webflow.com/612fcc289671bc539ecd004e/612ff6936ef1a98f2a9b29cf_logo-greydive-gris.png"
           alt="logo greydive"
         />

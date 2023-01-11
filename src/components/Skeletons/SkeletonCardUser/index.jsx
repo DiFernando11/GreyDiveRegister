@@ -2,7 +2,7 @@ import React from "react";
 
 function SkeletonCardUser() {
   return (
-    <div role="status" className="max-w-sm animate-pulse">
+    <div role="status" className="w-full animate-pulse m-auto">
       <div className="w-full m-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow-md ">
         <div className="mt-12 h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[180px]  m-auto"></div>
 

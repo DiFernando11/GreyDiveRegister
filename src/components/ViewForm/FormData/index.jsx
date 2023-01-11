@@ -68,7 +68,7 @@ function FormData({ initialValue }) {
 
   return (
     <section className="w-11/12 px-8 flex flex-col m-auto ">
-      {!initialValue && <h1 className="mb-8 uppercase">greydive Register</h1>}
+      {!initialValue && <h1 className="my-8 uppercase text-4xl">greydive Register</h1>}
       <form onSubmit={handleSubmit}>
         {itemsDB.items.map((item) => {
           if (item.type === "submit")
