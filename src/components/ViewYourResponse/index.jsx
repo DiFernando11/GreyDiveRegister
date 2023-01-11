@@ -3,9 +3,10 @@ import DataByUser from "./DataByUser";
 
 function ViewYourResponse() {
   return (
-    <main className="flex border w-full h-screen">
+    <main className="flex flex-col-reverse sm:flex-row block w-full sm:h-screen">
       <DataByUser />
-      <LogoPresentation/>
+      <LogoPresentation />
+
     </main>
   );
 }
